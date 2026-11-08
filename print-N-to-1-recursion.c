@@ -4,7 +4,7 @@ void hello(int i,int n){
     if(i==0){
      return;
     }
-    printf("%d\n",i);
+    printf("%d ",i);
     hello(i-1,n);
 }
 
